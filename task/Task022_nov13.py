@@ -9,7 +9,10 @@ class Calc:
     def __init__(self, a, b):
         self.a = a
         self.b = b
+
+    def calculator(self):
         print(self.a + self.b)
         print(self.a * self.b)
 
 c = Calc(5, 6)
+c.calculator()
